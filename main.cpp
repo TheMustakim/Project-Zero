@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<string> courses = {"Mathematics", "Physics", "Chemistry", "English", "Computer Science"};
+vector<string> courses = {"Analog Electronics-1", "Object Oriented Programming", "Circuit and Systems-2", "Math", "Humanities"};
 vector<int> courseCredits = {3, 3, 3, 2, 4};
 
 // Class using Static Members 
@@ -559,12 +559,12 @@ void loadData()
     if (!fin.good()) {
         cout << "[INFO] Creating demo students.csv\n";
         ofstream fout("students.csv");
-        fout << "ID,Name,Registered,Math,Physics,Chem,English,CS\n";
+        fout << "ID,Name,Registered,Analog Electronics-1,Object Oriented Programming,Circuit and Systems-2,Math,Humanities\n";
         fout << "2310047,Mustakim,0,-1,-1,-1,-1,-1\n";
         fout.close();
     } else {
         string line;
-        getline(fin, line); // Skip header
+        getline(fin, line); // Skipping header
         while (getline(fin, line)) {
             auto tokens = split(line, ',');
             if (tokens.size() < 8) continue;
@@ -605,7 +605,7 @@ void saveData()
 {
     // Save students
     ofstream fout("students.csv");
-    fout << "ID,Name,Registered,Math,Physics,Chem,English,CS\n";
+    fout << "ID,Name,Registered,Analog Electronics-1,Object Oriented Programming,Circuit and Systems-2,Math,Humanities\n";
     for (auto s : students)
         fout << s->toCSV() << "\n";
     fout.close();

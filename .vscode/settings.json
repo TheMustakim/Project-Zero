@@ -2,7 +2,11 @@
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
+<<<<<<< HEAD
   "C_Cpp_Runner.cStandard": "",
+=======
+  "C_Cpp_Runner.cStandard": "gnu23",
+>>>>>>> d444c30103c2ccb7c21b5ff8ebe0b64c78cdaf99
   "C_Cpp_Runner.cppStandard": "c++23",
   "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",
   "C_Cpp_Runner.useMsvc": false,

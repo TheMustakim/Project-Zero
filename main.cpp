@@ -2,7 +2,7 @@
 using namespace std;
 
 vector<string> courses = {"Analog Electronics-1", "Object Oriented Programming", "Circuit and Systems-2", "Math", "Humanities"};
-vector<int> courseCredits = {3, 3, 3, 2, 4};
+vector<int> courseCredits = {3, 3, 3, 3, 3};
 
 // Class using Static Members 
 class SystemInfo {

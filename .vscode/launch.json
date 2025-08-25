@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/Mustakim/DocumentsSync/Project-Zero",
-      "program": "c:/Users/Mustakim/DocumentsSync/Project-Zero/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/usala/Documents/Project-Zero",
+      "program": "/home/usala/Documents/Project-Zero/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -522,7 +522,7 @@ public:
     User *loginPrompt(string role)
     {
         while (true)
-        {
+        {       
             int id = (role == "student") ? inputInt("Enter Student ID (0 to go back): ", 0, INT_MAX, true)
                                          : inputInt("Enter ID (0 to go back): ", 0, INT_MAX, true);
             if (id == 0)

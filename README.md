@@ -31,7 +31,7 @@ The system demonstrates **key OOP concepts** including **inheritance, polymorphi
 
 ## ⚡ How to Run
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/TheMustakim/Project-Zero.git
 cd <repo-name>
 g++ main.cpp -o management_system -std=c++17
 ./management_system
